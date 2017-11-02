@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "517594261337",
+    "firebase_url": "https://airwaysreservation.firebaseio.com",
+    "project_id": "airwaysreservation",
+    "storage_bucket": "airwaysreservation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517594261337:android:44ca583c0f041e5c",
+        "android_client_info": {
+          "package_name": "com.piratedvirus.airwaysreservation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517594261337-j32j9202gl79306jrf0f11evbuag96mt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.piratedvirus.airwaysreservation",
+            "certificate_hash": "2b0de9a94619493bf93c5498b1e438ff851aca2f"
+          }
+        },
+        {
+          "client_id": "517594261337-usjp4p9ad1lo6o1d69hsedcett9l9ope.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu51UAaJeHxE8spgUvu7wgurZ-jJZdfqU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517594261337-usjp4p9ad1lo6o1d69hsedcett9l9ope.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
