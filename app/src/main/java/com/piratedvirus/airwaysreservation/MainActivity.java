@@ -9,15 +9,12 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.DatePicker;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.List;
 import java.util.Locale;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
@@ -53,26 +50,26 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
 
 
-//        // Spinner element
-        Spinner spinner = (Spinner) findViewById(R.id.selectClass);
-
-        // Spinner click listener
-        spinner.setOnItemSelectedListener(this);
-
-        // Spinner Drop down elements
-        List<String> categories = new ArrayList<String>();
-        categories.add("Business Class");
-        categories.add("Economy Class");
-
-
-        // Creating adapter for spinner
-        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categories);
-
-        // Drop down layout style - list view with radio button
-        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
-        // attaching data adapter to spinner
-        spinner.setAdapter(dataAdapter);
+////        // Spinner element
+//        Spinner spinner = (Spinner) findViewById(R.id.selectClass);
+//
+//        // Spinner click listener
+//        spinner.setOnItemSelectedListener(this);
+//
+//        // Spinner Drop down elements
+//        List<String> categories = new ArrayList<String>();
+//        categories.add("Business Class");
+//        categories.add("Economy Class");
+//
+//
+//        // Creating adapter for spinner
+//        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categories);
+//
+//        // Drop down layout style - list view with radio button
+//        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+//
+//        // attaching data adapter to spinner
+//        spinner.setAdapter(dataAdapter);
 
         final Calendar cal = Calendar.getInstance();
         cal.getDisplayName(Calendar.MONTH, Calendar.LONG, Locale.getDefault());

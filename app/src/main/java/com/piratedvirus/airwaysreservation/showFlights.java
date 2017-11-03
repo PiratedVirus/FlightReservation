@@ -8,7 +8,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -54,10 +53,10 @@ public class showFlights extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_flights);
-        final TextView startCityShort = (TextView) findViewById(R.id.startCityShort);
-        final TextView fullCityName = (TextView) findViewById(R.id.fullCityName);
-        final TextView endCityShort = (TextView) findViewById(R.id.endCityShort);
-        final TextView endCityName = (TextView) findViewById(R.id.endCityName);
+//        final TextView startCityShort = (TextView) findViewById(R.id.startCityShort);
+//        final TextView fullCityName = (TextView) findViewById(R.id.fullCityName);
+//        final TextView endCityShort = (TextView) findViewById(R.id.endCityShort);
+//        final TextView endCityName = (TextView) findViewById(R.id.endCityName);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             getWindow().getDecorView().setSystemUiVisibility(
@@ -65,14 +64,14 @@ public class showFlights extends AppCompatActivity {
                             | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
             getWindow().setStatusBarColor(Color.TRANSPARENT);
         }
-        String sCity = getIntent().getStringExtra("startCity");
-        String eCity = getIntent().getStringExtra("endCity");
-        String ssCity =sCity.substring(0, Math.min(sCity.length(), 3));
-        String seCity = eCity.substring(0,Math.min(sCity.length(), 3));
-        startCityShort.setText(ssCity);
-        fullCityName.setText(sCity);
-        endCityShort.setText(seCity);
-        endCityName.setText(eCity);
+//        String sCity = getIntent().getStringExtra("startCity");
+//        String eCity = getIntent().getStringExtra("endCity");
+//        String ssCity =sCity.substring(0, Math.min(sCity.length(), 3));
+//        String seCity = eCity.substring(0,Math.min(sCity.length(), 3));
+//        startCityShort.setText(ssCity);
+//        fullCityName.setText(sCity);
+//        endCityShort.setText(seCity);
+//        endCityName.setText(eCity);
 
         getFlights();
     }

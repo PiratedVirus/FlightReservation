@@ -4,8 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:weightSum="10"
-    >
+    android:weightSum="10">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,25 +14,27 @@
         android:weightSum="3"
         android:layout_marginBottom="33dp"
         android:layout_gravity="center_vertical"
-        android:background="@color/faintIndigo">
+        android:background="@color/darkBlue">
 
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="3"
             android:layout_gravity="center"
             android:gravity="center">
+
             <TextView
                 android:id="@+id/startCityShort"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="36dp"
-                android:text="NY"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/fullCityName"
+                android:layout_marginStart="102dp"
+                android:layout_marginTop="62dp"
+                android:text="BUSES"
                 android:textAllCaps="true"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="15dp"
                 android:textColor="#FFFFFF"
-                />
+                android:textSize="36dp" />
             <TextView
                 android:id="@+id/fullCityName"
                 android:layout_width="wrap_content"
@@ -41,59 +42,9 @@
                 android:layout_below="@+id/startCityShort"
                 android:textSize="16dp"
                 android:textColor="#FFFFFF"
-                android:text="NEW YORK"/>
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            android:gravity="center">
-
-            <ImageView
-                android:layout_width="46dp"
-                android:layout_height="46dp"
-                android:src="@drawable/departure"
-                />
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            android:gravity="center">
-            <TextView
-                android:id="@+id/endCityShort"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="36dp"
-                android:text="NY"
                 android:textAllCaps="true"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="25dp"
-                android:textColor="#FFFFFF"
-                />
-
-            <TextView
-                android:id="@+id/endCityName"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/endCityShort"
-                android:text="NEW YORK"
-                android:textAlignment="center"
-                android:textColor="#FFFFFF"
-                android:textSize="16dp"
-                android:layout_marginLeft="35dp"
-                android:textStyle="bold" />
+                android:text="Heres the following Bus on given Route"/>
         </RelativeLayout>
-
-
-
-
-
     </LinearLayout>
 
 
