@@ -14,7 +14,7 @@
         android:weightSum="3"
         android:layout_marginBottom="33dp"
         android:layout_gravity="center_vertical"
-        android:background="@color/darkBlue">
+        android:background="@drawable/bus">
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
                 android:layout_marginTop="62dp"
                 android:text="BUSES"
                 android:textAllCaps="true"
-                android:textColor="#FFFFFF"
+                android:textColor="#000"
                 android:textSize="36dp" />
             <TextView
                 android:id="@+id/fullCityName"
@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/startCityShort"
                 android:textSize="16dp"
-                android:textColor="#FFFFFF"
+                android:textColor="#000"
                 android:textAllCaps="true"
                 android:text="Heres the following Bus on given Route"/>
         </RelativeLayout>
@@ -67,25 +67,12 @@
         android:layout_marginBottom="8sp"
         android:layout_below="@+id/textView3" />
 
-    <TextView
-        android:layout_marginLeft="40dp"
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="View Tickets"
-        android:textAllCaps="true"
-        android:textColor="#3FAAF2"
-        android:textSize="14dp"
-        android:layout_gravity="center"
-        android:gravity="center"
+        android:layout_marginLeft="50dp"
         android:onClick="viewTicket"/>
-
-
-
-
-
-
-
-
-
 
 </LinearLayout>

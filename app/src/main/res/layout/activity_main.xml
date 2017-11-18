@@ -1,128 +1,3 @@
-<!--<?xml version="1.0" encoding="utf-8"?>-->
-<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
-    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
-    <!--xmlns:tools="http://schemas.android.com/tools"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--tools:context="com.piratedvirus.airwaysreservation.MainActivity">-->
-
-    <!--<EditText-->
-        <!--android:id="@+id/StartCity"-->
-        <!--android:layout_width="338dp"-->
-        <!--android:layout_height="39dp"-->
-        <!--android:layout_marginBottom="8dp"-->
-        <!--android:layout_marginEnd="8dp"-->
-        <!--android:layout_marginStart="8dp"-->
-        <!--android:layout_marginTop="8dp"-->
-        <!--android:background="@drawable/search_line"-->
-        <!--android:ems="10"-->
-        <!--android:hint="Abu Dhabi, UAE"-->
-        <!--android:inputType="textPersonName"-->
-        <!--android:paddingLeft="60dp"-->
-        <!--app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--app:layout_constraintEnd_toEndOf="parent"-->
-        <!--app:layout_constraintHorizontal_bias="0.313"-->
-        <!--app:layout_constraintStart_toStartOf="parent"-->
-        <!--app:layout_constraintTop_toTopOf="parent"-->
-        <!--app:layout_constraintVertical_bias="0.11" />-->
-
-    <!--<EditText-->
-        <!--android:id="@+id/EndCity"-->
-        <!--android:layout_width="338dp"-->
-        <!--android:layout_height="39dp"-->
-        <!--android:layout_marginBottom="8dp"-->
-        <!--android:layout_marginEnd="8dp"-->
-        <!--android:layout_marginStart="8dp"-->
-        <!--android:layout_marginTop="8dp"-->
-        <!--android:background="@drawable/search_line"-->
-        <!--android:ems="10"-->
-        <!--android:hint="Aurangabad, India"-->
-        <!--android:inputType="textPersonName"-->
-        <!--android:paddingLeft="60dp"-->
-        <!--app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--app:layout_constraintEnd_toEndOf="parent"-->
-        <!--app:layout_constraintHorizontal_bias="0.313"-->
-        <!--app:layout_constraintStart_toStartOf="parent"-->
-        <!--app:layout_constraintTop_toTopOf="parent"-->
-        <!--app:layout_constraintVertical_bias="0.253" />-->
-
-    <!--<TextView-->
-        <!--android:id="@+id/userDate"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginBottom="8dp"-->
-        <!--android:layout_marginEnd="8dp"-->
-        <!--android:layout_marginStart="8dp"-->
-        <!--android:layout_marginTop="8dp"-->
-        <!--android:ems="10"-->
-        <!--android:hint="20 Oct 2017"-->
-        <!--android:inputType="date"-->
-        <!--android:onClick="openPicker"-->
-        <!--app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--app:layout_constraintEnd_toEndOf="parent"-->
-        <!--app:layout_constraintHorizontal_bias="0.313"-->
-        <!--app:layout_constraintStart_toStartOf="parent"-->
-        <!--app:layout_constraintTop_toTopOf="parent"-->
-        <!--app:layout_constraintVertical_bias="0.396" />-->
-
-    <!--<Spinner-->
-        <!--android:id="@+id/Adults"-->
-        <!--android:layout_width="138dp"-->
-        <!--android:layout_height="69dp"-->
-        <!--android:background="@drawable/date_picker"-->
-        <!--app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--app:layout_constraintEnd_toEndOf="parent"-->
-        <!--app:layout_constraintHorizontal_bias="0.355"-->
-        <!--app:layout_constraintStart_toStartOf="parent"-->
-        <!--app:layout_constraintTop_toBottomOf="@+id/userDate"-->
-        <!--app:layout_constraintVertical_bias="0.187" />-->
-
-    <!--<Spinner-->
-        <!--android:id="@+id/Children"-->
-        <!--android:layout_width="159dp"-->
-        <!--android:layout_height="29dp"-->
-
-        <!--app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--app:layout_constraintEnd_toEndOf="parent"-->
-
-        <!--app:layout_constraintHorizontal_bias="0.809"-->
-        <!--app:layout_constraintStart_toStartOf="parent"-->
-        <!--app:layout_constraintTop_toBottomOf="@+id/DatePicker"-->
-        <!--app:layout_constraintVertical_bias="0.144" />-->
-
-    <!--<Spinner-->
-        <!--android:id="@+id/Class"-->
-        <!--android:layout_width="344dp"-->
-        <!--android:layout_height="24dp"-->
-        <!--android:layout_marginBottom="8dp"-->
-        <!--android:layout_marginEnd="8dp"-->
-        <!--android:layout_marginStart="8dp"-->
-        <!--android:layout_marginTop="8dp"-->
-        <!--app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--app:layout_constraintEnd_toEndOf="parent"-->
-        <!--app:layout_constraintHorizontal_bias="0.49"-->
-        <!--app:layout_constraintStart_toStartOf="parent"-->
-        <!--app:layout_constraintTop_toBottomOf="@+id/Adults"-->
-        <!--app:layout_constraintVertical_bias="0.194" />-->
-
-    <!--<Button-->
-        <!--android:id="@+id/button2"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginBottom="8dp"-->
-        <!--android:layout_marginEnd="8dp"-->
-        <!--android:layout_marginStart="8dp"-->
-        <!--android:layout_marginTop="8dp"-->
-        <!--android:text="FIND FLIGHTS"-->
-        <!--app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--app:layout_constraintEnd_toEndOf="parent"-->
-        <!--app:layout_constraintHorizontal_bias="0.4"-->
-        <!--app:layout_constraintStart_toStartOf="parent"-->
-        <!--app:layout_constraintTop_toBottomOf="@+id/Class"-->
-        <!--app:layout_constraintVertical_bias="0.228" />-->
-
-<!--</android.support.constraint.ConstraintLayout>-->
-
 <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -135,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="8"
-        android:background="@color/darkBlue"
+        android:background="@drawable/bus_short"
         android:gravity="center"
         android:paddingBottom="0dp"
         android:layout_marginBottom="15dp">
@@ -143,11 +18,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:layout_marginTop="10dp"
+            android:gravity="center"
             android:text="Book a Bus"
-            android:textColor="#FFFFFF"
-            android:textSize="30dp"/>
+            android:textColor="#000"
+            android:textSize="30dp" />
 
     </LinearLayout>
 
@@ -168,17 +43,30 @@
             android:padding="25dp"
             android:orientation="horizontal">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Source City :"
+                android:textColor="@color/darkBlue"
+                android:layout_marginBottom="10dp" />
+
             <EditText
                 android:id="@+id/StartCity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:hint="TrimurtiNagar"
                 android:ems="10"
                 android:inputType="textPersonName"
+                android:paddingTop="25dp"
                 android:paddingLeft="30dp"
                 android:paddingBottom="5dp"
                 android:textSize="22dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="End City"
+                android:textColor="@color/darkBlue"
+                android:layout_below="@+id/StartCity"/>
 
 
             <EditText
@@ -215,9 +103,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="15dp"
-                        android:text="Depart"
+                        android:text="Date"
                         android:textAlignment="viewEnd"
-                        android:textColor="#9AA5AA"
+                        android:textColor="@color/darkBlue"
                         android:textSize="36dp" />
 
                     <TextView
@@ -245,72 +133,98 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <LinearLayout
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/linearLayout"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:weightSum="10">
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="5"
 
-                        android:gravity="center"
-                        android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/AdultLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="32dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:text="Adults"
+                        android:textColor="#838393"
+                        android:textSize="24dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.202"
+                        app:layout_constraintStart_toStartOf="parent" />
 
-                        <TextView
-                            android:id="@+id/AdultLabel"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Adults"
-                            android:textColor="#838393"
-                            android:textSize="24dp"
-                            android:layout_marginBottom="5dp"/>
+                    <TextView
+                        android:id="@+id/Children"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="32dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Children"
+                        android:textColor="#838393"
+                        android:textSize="24dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.617"
+                        app:layout_constraintStart_toEndOf="@+id/AdultLabel"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
 
-                        <TextView
-                            android:id="@+id/Children"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Children"
-                            android:textColor="#838393"
-                            android:textSize="24dp"/>
 
-                    </LinearLayout>
+                    <EditText
+                        android:id="@+id/AdultNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="1"
+                        android:textColor="#838393"
+                        android:textSize="24dp"
+                        app:layout_constraintBottom_toTopOf="@+id/AdultLabel"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.262"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.785" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="5"
-                        android:orientation="vertical"
-                        android:layout_gravity="center_vertical"
-                        android:gravity="center">
+                    <EditText
+                        android:id="@+id/ChildrenNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="0"
+                        android:textColor="#838393"
+                        android:textSize="24dp"
+                        app:layout_constraintBottom_toTopOf="@+id/Children"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.604"
+                        app:layout_constraintStart_toEndOf="@+id/AdultNum"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.785" />
 
-                        <EditText
-                            android:id="@+id/AdultNum"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="1"
-                            android:textColor="#838393"
-                            android:textSize="24dp"
-                            android:layout_marginBottom="5dp"/>
+                    <TextView
+                        android:id="@+id/hiddenVal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/ChildrenNum"
+                        app:layout_constraintEnd_toEndOf="@+id/AdultNum"
+                        app:layout_constraintTop_toBottomOf="@+id/ChildrenNum" />
 
-                        <EditText
-                            android:id="@+id/ChildrenNum"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="0"
-                            android:textColor="#838393"
-                            android:textSize="24dp"/>
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="0dp"
-                            android:id="@+id/hiddenVal"/>
 
-                    </LinearLayout>
-
-                </LinearLayout>
+                </android.support.constraint.ConstraintLayout>
 
             </RelativeLayout>
+
+
 
 
         </RelativeLayout>
